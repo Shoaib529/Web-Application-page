@@ -42,6 +42,16 @@ menu {
   gap: 12px;
   padding: 0 40px;
 }
+input {
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 1px;
+  font-size: 17px;
+  border-radius: 50px;
+  border: 1px solid #222831;
+}
 
 Button {
   display: inline-block;
@@ -68,6 +78,9 @@ button:last-child:hover {
   background-color: #eeeeee;
   color: red;
 }
+.trash-icon {
+  width: 20px;
+}
 
 section {
   background-color: #e9ecef;
@@ -84,11 +97,13 @@ section {
   background-color: #adb5db;
   height: 96px;
   flex-shrink: 0;
+  font-size: 18px;
 
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 40px;
+  cursor: pointer;
 }
 
 aside {
